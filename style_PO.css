@@ -1,0 +1,205 @@
+div{
+	font-size:12px;
+	margin:5px;
+	padding:5px;
+}
+
+#orders{
+	background-color:white;
+	float:left;
+	width:830;
+}
+
+#orders_purchase_method{
+	border:1px solid black;
+	float:left;
+	height:40px;
+	margin-top:8px;
+	width:165px;
+}
+
+
+#orders_title{
+	border:1px solid black;
+	float:left;
+	font-size:20px;
+	height:60px;
+	text-align:center;
+	width:430px;
+}
+
+#rush{
+	color: #FF0000;
+}
+
+#orders_subtitle{
+	text-align:center;
+}
+
+#orders_POnum{
+	border:1px dotted black;
+	float:right;
+	height:40px;
+	width:160px;
+} 
+
+#orders_approval{
+	border:1px dotted black;
+	float:right;
+	height:40px;
+	width:160px;
+}
+
+#orders_contact{
+	background-color:#E0FFFF;
+	border:1px solid black;
+	float:left;
+	height:100px;
+	width:130px;
+}
+
+#orders_vendor{
+	background-color:#E0FFFF;
+	border:1px solid black;
+	float:left;
+	height:100px;
+	width:315px;
+}
+
+#orders_purpose{
+	background-color:#E0FFFF;
+	border:1px solid black;
+	float:left;
+	height:100px;
+	width:130px
+}
+
+#orders_budget{
+	background-color:#E0FFFF;
+	border: 1px dotted black;
+	float:right;
+	height:40px;
+	width:160px;
+}
+
+#orders_taxexempt{
+	border:1px solid black;
+	float:left;
+	height:50px;
+	width:620px;
+}
+
+#orders_taxexempt_checkboxes{
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:200px;
+}
+
+#orders_lineitems{
+	border:1px solid black;
+	float:left;
+	margin-bottom:0px;
+	width:620px;
+}
+
+#orders_lineitems table{
+	font-size:12px;
+	text-align:center;
+}
+
+#orders_subtotals{
+	float:left;
+	margin-top:0px;
+}
+
+#orders_subtotals table{
+	font-size:12px;
+	text-align:right;
+}
+
+.orders_colhead_pn{
+	border-bottom:1px solid black;
+	font-weight:bold;
+	width:75px;
+}
+
+.orders_colhead_des{
+	border-bottom:1px solid black;
+	font-weight:bold;
+	width:300px;
+} 
+
+.orders_colhead_qty{
+	border-bottom:1px solid black;
+	font-weight:bold;
+	width:75px;
+}
+
+.orders_colhead_ea{
+	border-bottom:1px solid black;
+	font-weight:bold;
+	width:75px;
+}
+
+.orders_colhead_tot{
+	border-bottom:1px solid black;
+	font-weight:bold;
+	width:75px;
+}
+
+.orders_lineitems_color{
+	background-color:#E0FFFF;
+}
+
+.dot{
+	border-bottom:1px dotted black;
+}
+
+.dot2{
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px dotted black;
+	text-align:center;
+}
+
+#orders_rightcolumn{
+	float:right;
+	margin-top:0px;
+	width:165px;
+}
+
+.orders_ship_bill_to{
+	background-color:pink;
+	border:1px solid black;
+	float:right;
+	width:160px;
+}
+
+#orders_comments{
+	background-color:#E0FFFF;
+	border:1px solid black;
+	float:left;
+	height:70px;
+	width:415px;
+}
+
+.orders_colhead_subtotal{
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px dotted black;
+	text-align:center;
+	width:85px;
+}
+
+#supp_docs{
+	border:1px solid black;
+	float:left;
+	width:800px;
+}
+
+
+/* print styles */
+@media print{
+	@page {size: landscape}
+}
